@@ -25,7 +25,7 @@ section {
 }
 
 .clearfix {
-    zoom: 1;
+    zoom: 1
 }
 .clearfix::after {
     content: ".";
@@ -69,29 +69,29 @@ h1 {
 
 
 h1:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
 
-.fan-photo img {
+.us-photo img {
     height: 550px;
     margin-top:100px;
     margin-left: 180px;
-    border-radius: 160px;
-    opacity: 0.98;
+    border-radius: 150px;
+    opacity: 1;
     transition: transform 0.5s;
 
 }
 
-.fan-photo img:hover {
+.us-photo img:hover {
     transform: scale(1.05);
     
 }
@@ -181,15 +181,16 @@ input[type=checkbox] {
 /* Words */
 /* ------------------------- */
 
-.words-btn {
-    margin-left: 500px;
-    margin-top: 100px;
-    
-}
-
-
 .words-h2 {
     display: none;
+    line-height: 1.7;
+}
+
+.fan-photo img {
+    height: 300px;
+    border-radius: 140px;
+    margin-top: 8px;
+
 }
 
 
