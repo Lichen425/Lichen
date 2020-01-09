@@ -93,6 +93,13 @@ h2 {
     
 }
 
+.icon-big {
+    display: block;
+    color: #153733d2;
+    font-size:350%;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 /* ------------------------- */
 /* Button */

@@ -5,6 +5,10 @@ $(document).ready (function() {
 
 /* Scroll on buttons */
 
+$('.js--scroll-down').click(function () {
+    $('html, body').animate({scrollTop: $('.js--section-form').offset().top}, 1000);
+});
+
 $('.js--scroll-to-words').click(function () {
     $('html, body').animate({scrollTop: $('.js--section-words').offset().top}, 1000);
 });
