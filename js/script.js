@@ -27,7 +27,7 @@ $('.js--scroll-to-words').click(function () {
 
 
 $('.js--scroll-to-idol').click(function () {
-    $('html, body').animate({scrollTop: $('.js--section-idol').offset().top}, 1000);
+    $('html, body').animate({scrollTop: $('.js--section-idol').offset().top}, 2000);
 });
 
     
