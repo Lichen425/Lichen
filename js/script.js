@@ -1,7 +1,5 @@
 $(document).ready (function() {
 
-/* Owl carousel */
-
 
 /* Scroll on buttons */
 

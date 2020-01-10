@@ -40,7 +40,7 @@ section {
 /* ------------------------- */
 header {
     background-color: #153733;
-    background-image: linear-gradient(rgba(129, 129, 129, 0.023), rgba(129, 129, 129, 0.023));
+    background-image: linear-gradient(rgba(129, 129, 129, 0.053), rgba(129, 129, 129, 0.053));
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -59,7 +59,7 @@ header {
 
 h1 {
     margin-top: 0;
-    margin-left: 680px;
+    margin-left: 650px;
     margin-bottom: 50px;
     color: #e67e22;
     font-size: 240%;
@@ -87,7 +87,6 @@ h2 {
     margin-top:100px;
     margin-left: 180px;
     border-radius: 150px;
-    transition: transform 0.5s;
 
 }
 
