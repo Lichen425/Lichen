@@ -47,20 +47,33 @@ header {
     background-attachment: fixed;
 }
 
+
 .landing-page {
-    position: absolute;
-    width: 1140px;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    margin-right: 45px;
+
+}
+
+.hero-img img {
+    height: 550px;
+    border-radius: 150px;
+    transition: 500ms;
+}
+
+.hero-img img:hover {
+    transform: scale(1.05);
+    
 }
 
 
-
 h1 {
-    margin-top: 0;
-    margin-left: 650px;
-    margin-bottom: 50px;
     color: #e67e22;
     font-size: 240%;
     word-spacing: 5px;
@@ -81,26 +94,16 @@ h2 {
     margin-bottom: 50px;
 }
 
+.scroll-down {
+    position: absolute;
+    margin-top: 340px;
 
-.us-photo img {
-    height: 550px;
-    margin-top:100px;
-    margin-left: 180px;
-    border-radius: 150px;
-
-}
-
-.us-photo img:hover {
-    transform: scale(1.05);
-    
 }
 
 
 .icon-big {
-    display: block;
-    color: #e67e22;
+    color: #e67d228f;
     font-size:350%;
-    margin-bottom: 10px;
     text-align: center;
 }
 
