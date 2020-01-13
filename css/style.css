@@ -57,7 +57,7 @@ header {
 }
 
 .hero-img {
-    margin-right: 70px;
+    margin-right: 60px;
 
 }
 
@@ -78,29 +78,28 @@ h1 {
     color: #e67e22;
     font-size: 240%;
     word-spacing: 5px;
-    line-height: 1.4;
-    transition: 500ms;
-    
+    line-height: 1.4;    
 }
 
 
 
 .main-words {
     padding-top: 50px;
-    padding-bottom: 10px;
-    font-size: 170%;
-    font-family: 'Baloo Bhai', cursive;
-    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 160%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 1000;
     letter-spacing: 3px;
-    line-height: 1;
+    line-height: 1.2;
     margin-left: 50px;
-    animation: zoom 4s infinite;
+    animation: zoom 2.5s infinite;
 }
 
 
 .emoji {
     margin-left: 50px;
-    animation: zoom 4s infinite;
+    line-height: 1.2;
+    animation: zoom 2.5s infinite;
 }
 
 @keyframes zoom{
